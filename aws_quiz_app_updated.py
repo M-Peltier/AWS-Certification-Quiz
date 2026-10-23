@@ -1,4 +1,9 @@
+
+#-----------------------------------------------------------------------------
 """AWS practice exam. Run: python -m streamlit run aws_quiz_app_updated.py"""
+#-----------------------------------------------------------------------------
+
+
 import csv
 import random
 import re
@@ -14,7 +19,7 @@ BASE = Path(__file__).resolve().parent
 CSV_PATH = BASE / "AWS_Quiz_Bank.csv"
 DB_PATH = BASE / "aws_quiz_history.sqlite3"
 LETTERS = "ABCDEF"
-EXAM_SECONDS = 65 * 60
+EXAM_SECONDS = 90 * 60
 
 
 @st.cache_data
