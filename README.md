@@ -10,7 +10,7 @@ The application loads practice questions from a CSV file and provides an interac
 
 ## Key Features
 
-- **65-Minute Exam Timer:** Simulates a timed AWS certification practice exam with an automatic countdown.
+- **90-Minute Exam Timer:** Simulates a timed AWS certification practice exam with an automatic countdown.
 - **Randomized Questions:** Shuffles questions for a different exam experience each time.
 - **Randomized Answer Choices:** Changes answer order while maintaining accurate grading.
 - **Multiple-Choice Questions:** Supports questions with single or multiple correct answers.
